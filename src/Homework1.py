@@ -99,6 +99,7 @@ if __name__ == '__main__':
          	   [0,0,0,1]])
     outq10 = Rotation.from_matrix(q10Transform[0:3,0:3])
     print(outq10.as_euler('zyx', degrees=True))
+    
     # print(getRotationMatrix(positions[0],positions[1]))
     # print(getRotationMatrix(positions[1],positions[2]))
     # vec3 = []
