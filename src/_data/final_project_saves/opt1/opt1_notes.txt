@@ -1,0 +1,5 @@
+forces about knee joints are applied at:
+body1 = [str(lowerLimbBodies[0].getName()),str(lowerLimbBodies[1].getName())]
+point1 = [Vec3(0,0,0),Vec3(0,0,0)]
+body2 = [str(lowerLimbBodies[2].getName()),str(lowerLimbBodies[3].getName())]
+point2 = [Vec3(0,0,0),Vec3(0,0,0)]

@@ -94,9 +94,9 @@ if __name__ == '__main__':
         print("\n")
     #endfor
     q10Transform = np.array([[0.8365,-0.2241,0.5000,0],
-               [0.3388,0.9288,-0.1504,0], 
-        	   [-0.4307,0.2952,0.8529,0],
-         	   [0,0,0,1]])
+                            [0.3388,0.9288,-0.1504,0], 
+                            [-0.4307,0.2952,0.8529,0],
+                            [0,0,0,1]])
     outq10 = Rotation.from_matrix(q10Transform[0:3,0:3])
     print(outq10.as_euler('zyx', degrees=True))
     
